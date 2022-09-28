@@ -14,3 +14,8 @@
     height:200px ;
     width: 30%;
 }
+
+.debug .col{
+    height: 70px;
+    background-color: aqua;
+}
