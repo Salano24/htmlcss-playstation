@@ -15,7 +15,22 @@
     width: 30%;
 }
 
-.debug .col{
+.photo_gallery .col{
     height: 70px;
     background-color: aqua;
+}
+
+.debug .no_limits{
+    height: 80px;
+    background-color: red;
+}
+
+.console .col{
+    height: 400px;
+    background-color: rgb(95, 232, 113);
+}
+
+.play_gagets .col{
+    background-color: blue;
+    height: 150px;
 }
