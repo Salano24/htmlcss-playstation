@@ -62,21 +62,44 @@ body{
     height: 150px;
 }
 
-.debug .play_plus{
+.play_plus .row{
     height: 200px;
 }
 
+.sconti .col{
+    background-color: brown;
+    height:200px ;
+}
+
+.play_now .row{
+    height: 200px;
+}
+
+.debug .play_now{
+    background-color:#161c3b ;
+}
 /* #endregion DEBUG */
 
 /* #region PLAY PLUS */
-.play_plus .play_plus_img, .play_plus .play_plus_text{
-    height: 100%;
-    width: 50%;
 
-}
-
-.play_plus_img img{
+.ps5_img{
     height: 100%;
 }
+
+.play_plus .play_plus_img{
+    height: 100%;
+}
+
 /* #endregion PLAY PLUS */
 
+/* #region PLAY NOW */
+
+.avengers{
+    height: 100%;
+}
+
+.play_now .play_now_img{
+    height: 100%;
+}
+
+/* #endregion PLAY NOW */
