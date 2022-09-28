@@ -5,3 +5,12 @@
 .debug .navigazione{
     height: 50px;
 }
+
+.debug .jumbo{
+    height: 400px;
+}
+
+.debug .call_to_action{
+    height:200px ;
+    width: 30%;
+}
