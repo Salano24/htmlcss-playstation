@@ -78,6 +78,31 @@ body{
 .debug .play_now{
     background-color:#161c3b ;
 }
+
+.social .col{
+    background-color: aqua;
+    height: 200px;
+}
+
+.link .foot-col{
+    background-color: rgb(0, 255, 34);
+    height: 200px;
+}
+
+.row-link{
+    height: 90%;
+}
+
+.link_footer .col{
+    height: 95%;
+    background-color: red;
+}
+
+.link-col{
+    height: 30%;
+    background-color: gray;
+}
+
 /* #endregion DEBUG */
 
 /* #region PLAY PLUS */
