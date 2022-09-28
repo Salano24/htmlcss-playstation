@@ -57,6 +57,11 @@ body{
     background-color: blueviolet;
 }
 
+.play_4 .col{
+    background-color: blue;
+    height: 150px;
+}
+
 /* #endregion DEBUG */
 
 
