@@ -8,78 +8,158 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   <!-- Bootstrap, Icon and CSS -->
-  <link rel="stylesheet" href="./css/style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
-    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body class="debug">
   <header>
-    <div class="sony pe-4 d-flex justify-content-end align-items-center"><img src="./img/sony_logo.svg" alt=""></div>
-    <div class="navigazione bg-info"></div>
+
+    <div class="sony pe-4 d-flex justify-content-end align-items-center">
+        <img src="./img/sony_logo.svg" alt="">
+    </div>
+
+    <nav class="navbar navigazione navbar-expand-lg bg_white">
+        <div class="container-fluid">
+            <img src="./img/play_logo.svg" alt="" class="navbar-brend">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav fw-bold me-auto mb-2 mb-lg-0">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link text-black" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Giochi
+                            <img class="arrow" src="./img/chevron-down-solid.svg" alt="">
+                        </a>
+                       
+                    </li><li class="nav-item dropdown">
+                        <a class="nav-link text-black" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Hardware
+                            <img class="arrow" src="./img/chevron-down-solid.svg" alt="">
+                        </a>
+                       
+                    </li><li class="nav-item dropdown">
+                        <a class="nav-link text-black" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Servizi
+                            <img class="arrow" src="./img/chevron-down-solid.svg" alt="">
+                        </a>
+                       
+                    </li><li class="nav-item dropdown">
+                        <a class="nav-link text-black" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Novità
+                            <img class="arrow" src="./img/chevron-down-solid.svg" alt="">
+                        </a>
+                       
+                    </li><li class="nav-item dropdown">
+                        <a class="nav-link text-black" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Fai acquisti
+                            <img class="arrow" src="./img/chevron-down-solid.svg" alt="">
+                        </a>
+                       
+                    </li><li class="nav-item dropdown">
+                        <a class="nav-link text-black" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Supporto
+                            <img class="arrow" src="./img/chevron-down-solid.svg" alt="">
+                        </a>
+                       
+                    </li>
+                   
+                
+
+                </ul>
+                <form class="d-flex" role="search">
+                    
+                        <a class="nav-link text-black pt-2 pe-2 fw-bold" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                           My Platstation
+                            <img class="arrow" src="./img/chevron-down-solid.svg" alt="">
+                        </a>
+                    
+                         <span class=" mt-1 me-2 btn_accedi">Accedi</span>
+                    <img class="me-3 mt-2 lente" src="./img/lens.svg" alt="">
+                </form>
+            </div>
+        </div>
+    </nav>
   </header>
 
   <main>
-    <section class="jumbo bg-danger ps-5 pb-5 d-flex align-items-end">
-        <div class="call_to_action bg-info">
-            <img src="" alt="">
-            <h2></h2>
-            <p></p>
-            <button></button>
+    <section class="jumbo ps-5 pb-5 d-flex align-items-end">
+        <div class="call_to_action text-light">
+            <img  class="mb-5" src="./img/returnal-hero-banner-logo.png" alt="">
+            <h2 class="mb-5">Rompi il cerchio </h2>
+            <p class="mb-5">Rialzati dopo ogni sconfitta e affronta una nuova sfida con ogni rinascita in questo esplosivo thiller fantascientifico, disponibile in esclusiva su PS5.</p>
+            <button>Acquista ora</button>
         </div>
     </section>
 
     <section class="photo_gallery mt-5">
         <div class="container">
             <div class="row row-cols-2 row-cols-md-3 row-cols-lg-6">
-                <div class="col mb-3"><img src="" alt=""></div>
-                <div class="col mb-3"><img src="" alt=""></div>
-                <div class="col mb-3"><img src="" alt=""></div>
-                <div class="col mb-3"><img src="" alt=""></div>
-                <div class="col mb-3"><img src="" alt=""></div>
-                <div class="col mb-3"><img src="" alt=""></div>
+                <div class=" col mb-3"><img src="./img/returnal-listing-thumb-01-ps5.jpg" alt=""></div>
+                <div class=" col mb-3"><img src="./img/ratchet-and-clank-rift-apart-keyart.jpg" alt=""></div> <div class=" col mb-3"><img src="./img/returnal-listing-thumb-01-ps5.jpg" alt=""></div>
+                <div class=" col mb-3"><img src="./img/ratchet-and-clank-rift-apart-keyart.jpg" alt=""></div> <div class=" col mb-3"><img src="./img/returnal-listing-thumb-01-ps5.jpg" alt=""></div>
+                <div class=" col mb-3"><img src="./img/ratchet-and-clank-rift-apart-keyart.jpg" alt=""></div>
+                
             </div>
         </div>
     </section>
 
-    <section class="no_limits mt-5">
+    <section class="no_limits fw-bold text-center mt-5">
         <div class="nuove_possibilita">
-            <h4></h4>
-            <h2></h2>
-            <h3></h3>
+            <h6>PLAY HAS NO LIMITS</h6>
+            <h2 class="fw-bold mb-3">Ecco la PlayStation 5</h2>
+            <h5 class="fw-bold">Tuffati in nuove possibilità di gioco completamente inaspettate</h5>
         </div>
     </section>
 
     <section class="console mt-5">
         <div class="container play_5">
             <div class="row row-cols-1 row-cols-md-2">
-                <div class="col">
-                    <h2></h2>
-                    <p></p>
-                    <button></button>
+                <div class="mt-5 col">
+                    <h2 class="mb-5 fw-bold">Console Playstation 5</h2>
+                    <p class=" fw-bold mb-4">Sperimenta la nuova generazione di incredibili giochi PlayStation.</p>
+                    <button class="btn_console">Maggiori iformazioni</button>
                 </div>
-                <div class="col mb-3"><img src="" alt=""></div>
+                <div class="col mb-3">
+                    <img src="./img/playstation-5-thumb.png" alt="">
+                </div>
             </div>
         </div>
 
-        <div class="container play_gagets mt-5">
+        <div class="container play_gagets mt-5 pt-5">
             <div class="row row-cols-3 row-cols-md-5">
-                <div class="col mb-3"><img src="" alt=""></div>
-                <div class="col mb-3"><img src="" alt=""></div>
-                <div class="col mb-3"><img src="" alt=""></div>
-                <div class="col mb-3"><img src="" alt=""></div>
-                <div class="col mb-3"><img src="" alt=""></div>
+                <div class="col text-center flex-column fw-bold align-items-center d-flex justify-content-center mb-3"><img src="./img/playstation-5-thumb.png" alt="">
+                <span class="border_bottom">Console PS5</span></div>
+                <div class="col text-center flex-column text_gray fw-bold align-items-center d-flex justify-content-center mb-3"><img src="./img/joypad-thumb.png" alt="">
+                <span>Controller <br> wireless <br> DualSense</span></div>
+                <div class="text-center col d-flex flex-column text_gray fw-bold align-items-center  justify-content-center mb-3"><img src="./img/headset-thumb.png" alt=""><span>Cuffie wireless <br> con microfono <br> PULSE 3</span>
+                </div>
+                <div class="text-center  d-flex flex-column text_gray fw-bold align-items-center justify-content-center mb-3"><img src="./img/remote-thumb.png" alt="">
+                <span>Telecomando <br> Media</span></div>
+                <div class="col text-center flex-column text_gray fw-bold align-items-center d-flex justify-content-center mb-3"><img src="./img/camera-thumb.jpg" alt="">
+                <span>Telecamera HD</span></div>
            </div>
         </div>
     </section>
 
     <section class="takes_two mt-5 ps-3 pe-3 pt-3 pb-3 d-flex align-items-end">
-        <div class="cooperativa container-fluid">
-            <img src="" alt="">
-            <h2></h2>
-            <p></p>
-            <button></button>
+        <div class="cooperativa ps-5 ms-5 pe-5 me-5 text-light fw-bold container-fluid">
+            <img class="ps-5 ms-5 takes_img" src="./img/it-takes-two-logo.png" alt="">
+            <h2 class="mt-5 mb-5">Un'avventura cooperativa selvaggia ti attende</h2>
+            <p>Trova un amico e partite insieme per l'avventura più folle della vostra vita in It Takes Two, un gioco d'avventura cooperativa a piattaforme cge stravolge il dip genere.</p>
+            <button class="mb-4 mt-5">Acquista ora</button>
         </div>
     </section>
 

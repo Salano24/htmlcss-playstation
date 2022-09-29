@@ -3,53 +3,6 @@ body{
 }
 
 /* #region DEBUG */
-
-
-.debug .navigazione{
-    height: 50px;
-}
-
-.debug .jumbo{
-    height: 400px;
-}
-
-.debug .call_to_action{
-    height:200px ;
-    width: 30%;
-}
-
-.photo_gallery .col{
-    height: 70px;
-    background-color: aqua;
-}
-
-.debug .no_limits{
-    height: 80px;
-    background-color: red;
-}
-
-.console .col{
-    height: 400px;
-    background-color: rgb(95, 232, 113);
-}
-
-.play_gagets .col{
-    background-color: blue;
-    height: 150px;
-}
-
-.debug .takes_two{
-    background-color: yellow;
-    height: 400px;
-}
-
-.debug .cooperativa{
-    height: 100%;
-    background-color: aquamarine;
-      ;
-
-}
-
 .nuove_uscite .col{
     height: 100px;
     background-color: blueviolet;
@@ -104,24 +57,182 @@ body{
 /* #endregion DEBUG */
 
 /* #region HEADER */
+
+
 .sony img{
     height: 50%;
 }
 
+.navigazione{
+    height: 10vh;
+    
+    width: 100vw;
+    
+
+}
+
 .sony{
     height: 5vh;
-    position: fixed;
+
     background-color:black ;
     width: 100vw;
+
 }
 
 .bg_white{
     background-color: white;
 }
 
-svg{
-    height: 1rem;
+.arrow{  
+     height: 1rem;
 }
+
+.btn_accedi{
+    background-color: #333333;
+    color: white;
+    border: 0;
+    border-radius: 1rem;
+    padding: 0.2rem 1rem;
+}
+
+.lente{
+    height: 1.2rem;
+    margin-top: 1.2rem;
+}
+/* #endregion HEADER */
+
+/* #region JUMBO */
+.jumbo{
+    background-size: cover;
+    background-repeat: no-repeat;
+   background-image: url(../img/jumbo-bg.png);
+}
+
+.call_to_action{
+
+    width: 30%;
+}
+
+.call_to_action img{
+    height: 10vh;
+}
+
+.call_to_action button{
+   background-color: #cd3d0f;
+   color: white;
+   border: 0;
+   border-radius: 1rem;
+   padding: 0.2rem 1rem;
+  }
+
+
+/* #endregion JUMBO */
+
+/* #region PHOTO GALLERY */
+
+.photo_gallery img{
+    height: 80%;
+    border-radius: 1rem;
+
+}
+
+.photo_gallery .col{
+height:  20vh;
+}
+
+
+/* #endregion PHOTO GALLERY */
+
+/* #region NO LIMITS */
+
+.no_limits h6{
+    color: #0068ca;
+}
+
+.no_limits h2{
+    color: black;
+}
+
+.no_limits h5{
+    color: #747474;
+}
+
+/* #endregion NO LIMITS */
+
+/* #region CONSOLE */
+
+
+.play_5 .col{
+    height: 40vh;
+}
+
+.play_5 img{
+    height: 150%;
+}
+
+.play_5{
+    width: 80%;
+
+}
+
+.console p{
+    color: #747474;
+}
+
+.console button{
+    background-color: #2d64e6;
+    color: white;
+    border: 0;
+    border-radius: 1rem;
+    padding: 0.2rem 1rem;
+}
+
+.play_gagets img{
+    height: 60%;
+    width: 60%;
+}
+.play_gagets .col{
+    height: 25vh;
+}
+
+.border_bottom{
+border-bottom: 2px solid #2d64e6;
+padding-bottom: 3rem;
+}
+
+.text_gray{
+    color: #747474;
+    filter: opacity(0.5) ;
+}
+
+
+/* #endregion CONSOLE */
+
+/* #region TAKES TWO */
+
+.takes_two{
+    background-size: cover;
+   background-repeat: no-repeat;
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+}
+
+.cooperativa{
+    height: 100%;
+}
+
+.takes_img{
+    width: 33vw;
+}
+
+.takes_two button{
+    background-color: #ca3000;
+    color: white;
+    border: 0;
+    border-radius: 1rem;
+    padding: 0.3rem 1.2rem;
+}
+
+/* #endregion TAKES TWO */
 
 /* #region PLAY PLUS */
 
