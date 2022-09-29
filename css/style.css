@@ -1,51 +1,8 @@
+/* #region ASSETS */
 body{
     font-family: Arial, Helvetica, sans-serif;
 }
-
-/* #region DEBUG */
-
-
-
-
-
-.sconti .col{
-    background-color: brown;
-    height:200px ;
-}
-
-.play_now .row{
-    height: 200px;
-}
-
-.debug .play_now{
-    background-color:#161c3b ;
-}
-
-.social .col{
-    background-color: aqua;
-    height: 200px;
-}
-
-.link .foot-col{
-    background-color: rgb(0, 255, 34);
-    height: 200px;
-}
-
-.row-link{
-    height: 90%;
-}
-
-.link_footer .col{
-    height: 95%;
-    background-color: red;
-}
-
-.link-col{
-    height: 30%;
-    background-color: gray;
-}
-
-/* #endregion DEBUG */
+/* #endregion ASSETS */
 
 /* #region HEADER */
 
@@ -91,6 +48,8 @@ body{
     margin-top: 1.2rem;
 }
 /* #endregion HEADER */
+
+/* #region MAIN */
 
 /* #region JUMBO */
 .jumbo{
@@ -268,7 +227,12 @@ padding-bottom: 3rem;
 /* #region PLAY PLUS */
 
 .bg_lightgray{
+   height: 60vh;
     background-color:#bebcbb ;
+}
+
+.play_plus_text{
+    height: 100%;
 }
 
 .ps5_img{
@@ -282,6 +246,8 @@ padding-bottom: 3rem;
 .ps_plus_logo{
     height: 15vh;
 }
+
+
 
 .ps_plus_btn{
     background-color: #d9dadc;
@@ -298,6 +264,14 @@ padding-bottom: 3rem;
 
 /* #endregion PLAY PLUS */
 
+/* #region SCONTI */
+
+.sconti img{
+    height: 50vh;
+}
+
+/* #endregion SCONTI */
+
 /* #region PLAY NOW */
 
 .avengers{
@@ -308,4 +282,63 @@ padding-bottom: 3rem;
     height: 100%;
 }
 
+.play_now .row{
+    height: 60vh;
+}
+
+.play_now{
+    height: 60vh;
+    background-color: #161c3b;
+}
+
+.ps_now_logo{
+    height: 15vh;
+}
+
+.ps_now_btn{
+    background-color: #ffffff;
+    color: #000000;
+    border: 0;
+    border-radius: 1rem;
+    padding: 0.3rem 1rem; 
+    font-weight: bold;
+}
+
+.play_now .play_now_img{
+    height: 100%;
+}
+
+.play_now_text{
+    height: 100%;
+}
+
 /* #endregion PLAY NOW */
+
+/* #region SOCIAL */
+.social img{
+    height: 35vh;
+}
+
+/* #endregion SOCIAL */
+
+/* #endregion MAIN */
+
+/* #region FOOTER */
+
+.bg_blue{
+    background-color: #00439c;
+}
+
+.ps_footer{
+    height: 20vh;
+}
+
+.maggiori_info{
+    text-decoration: underline;
+}
+
+.sie{
+    height: 8vh;   
+}
+
+/* #endregion FOOTER */
