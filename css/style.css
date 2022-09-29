@@ -3,9 +3,7 @@ body{
 }
 
 /* #region DEBUG */
-.debug .sony{
-    height: 30px;
-}
+
 
 .debug .navigazione{
     height: 50px;
@@ -104,6 +102,26 @@ body{
 }
 
 /* #endregion DEBUG */
+
+/* #region HEADER */
+.sony img{
+    height: 50%;
+}
+
+.sony{
+    height: 5vh;
+    position: fixed;
+    background-color:black ;
+    width: 100vw;
+}
+
+.bg_white{
+    background-color: white;
+}
+
+svg{
+    height: 1rem;
+}
 
 /* #region PLAY PLUS */
 
