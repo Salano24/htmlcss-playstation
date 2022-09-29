@@ -3,19 +3,10 @@ body{
 }
 
 /* #region DEBUG */
-.nuove_uscite .col{
-    height: 100px;
-    background-color: blueviolet;
-}
 
-.play_4 .col{
-    background-color: blue;
-    height: 150px;
-}
 
-.play_plus .row{
-    height: 200px;
-}
+
+
 
 .sconti .col{
     background-color: brown;
@@ -234,10 +225,71 @@ padding-bottom: 3rem;
 
 /* #endregion TAKES TWO */
 
+/* #region NUOVE USCITE */
+
+.bg_darker{
+    background-color: #1f1f1f;
+}
+
+.nuove_uscite img{
+    height:166px ;
+    width: 166px;
+}
+
+
+
+.circle_img{
+    border-radius: 10%;
+    margin-bottom: 0.5rem;
+}
+
+/* #endregion NUOVE USCITE */
+
+/* #region PLAY 4 */
+
+.text_darkgray{
+    color: #727272;
+}
+
+.play_4 img{
+    height: 20vh;
+}
+
+.btn_play_4{
+    background-color: #2d64e6;
+    color: white;
+    border: 0;
+    border-radius: 1rem;
+    padding: 0.2rem 1rem; 
+}
+
+/* #endregion PLAY 4 */
+
 /* #region PLAY PLUS */
+
+.bg_lightgray{
+    background-color:#bebcbb ;
+}
 
 .ps5_img{
     height: 100%;
+}
+
+.play_plus .row{
+    height: 60vh;
+}
+
+.ps_plus_logo{
+    height: 15vh;
+}
+
+.ps_plus_btn{
+    background-color: #d9dadc;
+    color: #2d64e6;
+    border: 0;
+    border-radius: 1rem;
+    padding: 0.3rem 1rem; 
+    font-weight: bold;
 }
 
 .play_plus .play_plus_img{
