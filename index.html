@@ -15,7 +15,7 @@
 </head>
 
 <body>
-  <header>
+  <header class="top-0 shadow-lg">
 
     <div class="sony pe-4 d-flex justify-content-end align-items-center">
         <img src="./img/sony_logo.svg" alt="">
@@ -32,42 +32,42 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav fw-bold me-auto mb-2 mb-lg-0">
                     <li class="nav-item dropdown">
-                        <a class="nav-link text-black" href="#" role="button" data-bs-toggle="dropdown"
+                        <a class="nav-link text_lightgray" href="#" role="button" data-bs-toggle="dropdown"
                             aria-expanded="false">
                             Giochi
                             <img class="arrow" src="./img/chevron-down-solid.svg" alt="">
                         </a>
                        
                     </li><li class="nav-item dropdown">
-                        <a class="nav-link text-black" href="#" role="button" data-bs-toggle="dropdown"
+                        <a class="nav-link text_lightgray" href="#" role="button" data-bs-toggle="dropdown"
                             aria-expanded="false">
                             Hardware
                             <img class="arrow" src="./img/chevron-down-solid.svg" alt="">
                         </a>
                        
                     </li><li class="nav-item dropdown">
-                        <a class="nav-link text-black" href="#" role="button" data-bs-toggle="dropdown"
+                        <a class="nav-link text_lightgray" href="#" role="button" data-bs-toggle="dropdown"
                             aria-expanded="false">
                             Servizi
                             <img class="arrow" src="./img/chevron-down-solid.svg" alt="">
                         </a>
                        
                     </li><li class="nav-item dropdown">
-                        <a class="nav-link text-black" href="#" role="button" data-bs-toggle="dropdown"
+                        <a class="nav-link text_lightgray" href="#" role="button" data-bs-toggle="dropdown"
                             aria-expanded="false">
                             Novità
                             <img class="arrow" src="./img/chevron-down-solid.svg" alt="">
                         </a>
                        
                     </li><li class="nav-item dropdown">
-                        <a class="nav-link text-black" href="#" role="button" data-bs-toggle="dropdown"
+                        <a class="nav-link text_lightgray" href="#" role="button" data-bs-toggle="dropdown"
                             aria-expanded="false">
                             Fai acquisti
                             <img class="arrow" src="./img/chevron-down-solid.svg" alt="">
                         </a>
                        
                     </li><li class="nav-item dropdown">
-                        <a class="nav-link text-black" href="#" role="button" data-bs-toggle="dropdown"
+                        <a class="nav-link text_lightgray" href="#" role="button" data-bs-toggle="dropdown"
                             aria-expanded="false">
                             Supporto
                             <img class="arrow" src="./img/chevron-down-solid.svg" alt="">
@@ -80,7 +80,7 @@
                 </ul>
                 <form class="d-flex" role="search">
                     
-                        <a class="nav-link text-black pt-2 pe-2 fw-bold" href="#" role="button" data-bs-toggle="dropdown"
+                        <a class="nav-link text_lightgray pt-2 pe-2 fw-bold" href="#" role="button" data-bs-toggle="dropdown"
                             aria-expanded="false">
                            My Platstation
                             <img class="arrow" src="./img/chevron-down-solid.svg" alt="">
@@ -96,21 +96,23 @@
 
   <main>
     <section class="jumbo ps-5 pb-5 d-flex align-items-end">
-        <div class="call_to_action text-light">
-            <img  class="mb-5" src="./img/returnal-hero-banner-logo.png" alt="">
+        <div class="call_to_action container_jumbo text-light">
+            <img  class="mb-5 returnal" src="./img/returnal-hero-banner-logo.png" alt="">
             <h2 class="mb-5">Rompi il cerchio </h2>
             <p class="mb-5">Rialzati dopo ogni sconfitta e affronta una nuova sfida con ogni rinascita in questo esplosivo thiller fantascientifico, disponibile in esclusiva su PS5.</p>
-            <button>Acquista ora</button>
+            <button class="jumbo_btn">Acquista ora</button>
         </div>
     </section>
 
     <section class="photo_gallery mt-5">
         <div class="container">
             <div class="row row-cols-2 row-cols-md-3 row-cols-lg-6">
-                <div class=" col mb-3"><img src="./img/returnal-listing-thumb-01-ps5.jpg" alt=""></div>
-                <div class=" col mb-3"><img src="./img/ratchet-and-clank-rift-apart-keyart.jpg" alt=""></div> <div class=" col mb-3"><img src="./img/returnal-listing-thumb-01-ps5.jpg" alt=""></div>
-                <div class=" col mb-3"><img src="./img/ratchet-and-clank-rift-apart-keyart.jpg" alt=""></div> <div class=" col mb-3"><img src="./img/returnal-listing-thumb-01-ps5.jpg" alt=""></div>
-                <div class=" col mb-3"><img src="./img/ratchet-and-clank-rift-apart-keyart.jpg" alt=""></div>
+                <div class=" col mb-3"><img class="gallery_img" src="./img/returnal-listing-thumb-01-ps5.jpg" alt=""></div>
+                <div class=" col mb-3"><img class="gallery_img" src="./img/ratchet-and-clank-rift-apart-keyart.jpg" alt=""></div>
+                <div class=" col mb-3"><img class="gallery_img" src="./img/returnal-listing-thumb-01-ps5.jpg" alt=""></div>
+                <div class=" col mb-3"><img class="gallery_img" src="./img/ratchet-and-clank-rift-apart-keyart.jpg" alt=""></div> 
+                <div class=" col mb-3"><img class="gallery_img" src="./img/returnal-listing-thumb-01-ps5.jpg" alt=""></div>
+                <div class=" col mb-3"><img class="gallery_img" src="./img/ratchet-and-clank-rift-apart-keyart.jpg" alt=""></div>
                 
             </div>
         </div>
@@ -140,15 +142,15 @@
 
         <div class="container play_gagets mt-5 pt-5">
             <div class="row row-cols-3 row-cols-md-5">
-                <div class="col text-center flex-column fw-bold align-items-center d-flex justify-content-center mb-3"><img src="./img/playstation-5-thumb.png" alt="">
+                <div class="col text-center flex-column fw-bold align-items-center d-flex justify-content-center mb-3"><img class="gagets" src="./img/playstation-5-thumb.png" alt="">
                 <span class="border_bottom">Console PS5</span></div>
-                <div class="col text-center flex-column text_gray fw-bold align-items-center d-flex justify-content-center mb-3"><img src="./img/joypad-thumb.png" alt="">
+                <div class="col text-center flex-column text_gray fw-bold align-items-center d-flex justify-content-center mb-3"><img class="gagets" src="./img/joypad-thumb.png" alt="">
                 <span>Controller <br> wireless <br> DualSense</span></div>
-                <div class="text-center col d-flex flex-column text_gray fw-bold align-items-center  justify-content-center mb-3"><img src="./img/headset-thumb.png" alt=""><span>Cuffie wireless <br> con microfono <br> PULSE 3</span>
+                <div class="text-center col d-flex flex-column text_gray fw-bold align-items-center  justify-content-center mb-3"><img class="gagets" src="./img/headset-thumb.png" alt=""><span>Cuffie wireless <br> con microfono <br> PULSE 3</span>
                 </div>
-                <div class="text-center  d-flex flex-column text_gray fw-bold align-items-center justify-content-center mb-3"><img src="./img/remote-thumb.png" alt="">
+                <div class="text-center  d-flex flex-column text_gray fw-bold align-items-center justify-content-center mb-3"><img class="gagets" src="./img/remote-thumb.png" alt="">
                 <span>Telecomando <br> Media</span></div>
-                <div class="col text-center flex-column text_gray fw-bold align-items-center d-flex justify-content-center mb-3"><img src="./img/camera-thumb.jpg" alt="">
+                <div class="col text-center flex-column text_gray fw-bold align-items-center d-flex justify-content-center mb-3"><img class="gagets" src="./img/camera-thumb.jpg" alt="">
                 <span>Telecamera HD</span></div>
            </div>
         </div>
@@ -159,7 +161,7 @@
             <img class="ps-5 ms-5 takes_img" src="./img/it-takes-two-logo.png" alt="">
             <h2 class="mt-5 mb-5">Un'avventura cooperativa selvaggia ti attende</h2>
             <p>Trova un amico e partite insieme per l'avventura più folle della vostra vita in It Takes Two, un gioco d'avventura cooperativa a piattaforme cge stravolge il dip genere.</p>
-            <button class="mb-4 mt-5">Acquista ora</button>
+            <button class="mb-4 jumbo_btn mt-5">Acquista ora</button>
         </div>
     </section>
 
@@ -251,7 +253,7 @@
     </div>  
     </section>
 
-    <section class="play_plus bg_lightgray d-flex">
+    <section class="play_plus pb-3 bg_lightgray d-flex">
         <div class="container">
             <div class="row row-cols-1 row-cols-md-2">
                 <div class="col play_plus_text">
@@ -279,7 +281,7 @@
         </div>
     </section>
 
-    <section class="play_now d-flex">
+    <section class="play_now pb-3 d-flex">
         <div class="container">
             <div class="row row-cols-1 row-cols-md-2">
                 <div class="col play_now_text">
@@ -323,18 +325,30 @@
             <div class="row row-cols-1 row-cols-lg-2">
                 <div class="col fw-bold foot-col mb-3">
                     <img class="mb-5 ps_footer ms-5" src="./img/ps-footer.svg" alt=""> <br>
-                    <span class="ms-5"><i class="fa-solid fa-globe"></i> Country / Region: Italy</span>
+                    <span class="ms-5 country"><i class="fa-solid fa-globe"></i> Country / Region: Italy</span>
                 </div>
                 <div class="col fw-bold foot-col mb-3">
                     <div class="row row-link row-cols-1 row-cols-md-3">
                         <div class="col link-col ps-5 ">
-                            <span>Link Footer n</span> <br><span>Link Footer n</span> <br><span>Link Footer n</span> <br><span>Link Footer n</span> <br><span>Link Footer n</span>
+                            <span class="link_footer">Link Footer n</span><br>
+                            <span class="link_footer">Link Footer n</span><br>
+                            <span class="link_footer">Link Footer n</span><br>
+                            <span class="link_footer">Link Footer n</span><br>
+                            <span class="link_footer">Link Footer n</span>
                         </div>
                         <div class="col ps-5 link-col">
-                            <span>Link Footer n</span> <br><span>Link Footer n</span> <br><span>Link Footer n</span> <br><span>Link Footer n</span> <br><span>Link Footer n</span> <br><span>Link Footer n</span> <br><span>Link Footer n</span>
+                            <span class="link_footer">Link Footer n</span> <br>
+                            <span class="link_footer">Link Footer n</span> <br>
+                            <span class="link_footer">Link Footer n</span> <br>
+                            <span class="link_footer">Link Footer n</span> <br>
+                            <span class="link_footer">Link Footer n</span> <br>
+                            <span class="link_footer">Link Footer n</span> <br>
+                            <span class="link_footer">Link Footer n</span>
                         </div>
                         <div class="col ps-5 link-col">
-                            <span>Link Footer n</span><br> <span>Link Footer n</span> <br><span>Link Footer n</span>
+                            <span class="link_footer">Link Footer n</span><br>
+                            <span class="link_footer">Link Footer n</span><br>
+                            <span class="link_footer">Link Footer n</span>
                         </div>
                     </div>
                 </div>

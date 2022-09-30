@@ -5,7 +5,9 @@ body{
 /* #endregion ASSETS */
 
 /* #region HEADER */
-
+header{
+    position: fixed;
+}
 
 .sony img{
     height: 50%;
@@ -19,9 +21,24 @@ body{
 
 }
 
+.text_lightgray{
+    color: #999999;
+}
+
+.text_lightgray:hover{
+    color: black;
+}
+
+.returnal{
+    margin-top: 30vh;
+}
+
+.container_jumbo{
+    margin-left: 6%;
+}
+
 .sony{
     height: 5vh;
-
     background-color:black ;
     width: 100vw;
 
@@ -43,6 +60,13 @@ body{
     padding: 0.2rem 1rem;
 }
 
+.btn_accedi:hover{
+   background-color: #201f1f ;
+    outline: 3px solid #201f1f;
+    border: 2px solid white;
+    
+}
+
 .lente{
     height: 1.2rem;
     margin-top: 1.2rem;
@@ -55,7 +79,8 @@ body{
 .jumbo{
     background-size: cover;
     background-repeat: no-repeat;
-   background-image: url(../img/jumbo-bg.png);
+  margin-top: 15vh;
+    background-image: url(../img/jumbo-bg.png);
 }
 
 .call_to_action{
@@ -75,6 +100,13 @@ body{
    padding: 0.2rem 1rem;
   }
 
+.jumbo_btn:hover{
+    background-color: #b3360c;
+    outline: 3px solid #b3360c;
+    border: 2px solid black;
+    
+}
+
 
 /* #endregion JUMBO */
 
@@ -88,6 +120,16 @@ body{
 
 .photo_gallery .col{
 height:  20vh;
+}
+
+.gallery_img{
+    margin-top: 2rem;
+}
+
+.gallery_img:hover{
+    margin-top: 0;
+    border: 2px solid #2d64e6;
+    padding: 2px;
 }
 
 
@@ -137,6 +179,13 @@ height:  20vh;
     padding: 0.2rem 1rem;
 }
 
+.btn_console:hover{  
+   background-color: #1e49ae;
+    outline: 3px solid #1e49ae;
+  border: 2px solid white;
+    
+}
+
 .play_gagets img{
     height: 60%;
     width: 60%;
@@ -153,6 +202,11 @@ padding-bottom: 3rem;
 .text_gray{
     color: #747474;
     filter: opacity(0.5) ;
+}
+
+.text_gray:hover{
+    filter: opacity(1);
+    border-bottom: 2px solid #2d64e6;
 }
 
 
@@ -222,12 +276,18 @@ padding-bottom: 3rem;
     padding: 0.2rem 1rem; 
 }
 
+.btn_play_4:hover{
+   background-color: #1e49ae;
+    outline: 3px solid #1e49ae;
+   border: 2px solid white;       
+   
+}
+
 /* #endregion PLAY 4 */
 
 /* #region PLAY PLUS */
 
 .bg_lightgray{
-   height: 60vh;
     background-color:#bebcbb ;
 }
 
@@ -236,12 +296,9 @@ padding-bottom: 3rem;
 }
 
 .ps5_img{
-    height: 100%;
-}
-
-.play_plus .row{
     height: 60vh;
 }
+
 
 .ps_plus_logo{
     height: 15vh;
@@ -257,6 +314,12 @@ padding-bottom: 3rem;
     padding: 0.3rem 1rem; 
     font-weight: bold;
 }
+
+.ps_plus_btn:hover{
+     background-color:#b0b2b4 ;  
+    outline: 3px solid #b0b2b4;
+     border: 2px solid #2d64e6;
+    }
 
 .play_plus .play_plus_img{
     height: 100%;
@@ -275,19 +338,14 @@ padding-bottom: 3rem;
 /* #region PLAY NOW */
 
 .avengers{
-    height: 100%;
+    height: 60vh;
 }
 
 .play_now .play_now_img{
     height: 100%;
 }
 
-.play_now .row{
-    height: 60vh;
-}
-
 .play_now{
-    height: 60vh;
     background-color: #161c3b;
 }
 
@@ -302,6 +360,11 @@ padding-bottom: 3rem;
     border-radius: 1rem;
     padding: 0.3rem 1rem; 
     font-weight: bold;
+}
+
+.ps_now_btn:hover{
+  outline: 3px solid white;
+  border: 2px solid black;
 }
 
 .play_now .play_now_img{
@@ -341,4 +404,12 @@ padding-bottom: 3rem;
     height: 8vh;   
 }
 
+ .link_footer:hover{
+    cursor: pointer;
+    text-decoration: underline;
+ }
+
+ .country:hover{
+    cursor: pointer;
+ }
 /* #endregion FOOTER */
